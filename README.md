@@ -20,17 +20,19 @@ teremos que fazer com que a programação se adeque ao equipamento/device que ir
 nós já prevemos com o uso da imagem no tamanho de 200 x 100.
   
 # Trecho do código HTML mais relevante: <br>
-"<header class="header"> <br>
-"    <!-- Logo responsivo com srcset --><br>
-"    <img <br>
-"      src="imagens/logo.png" <br>
-"      srcset="<br>
-"        imagens/thermosafe_logo_200x100.png 200w,<br>
-"        imagens/thermosafe_logo_400x200.png 400w,<br>
-"        imagens/thermosafe_logo_600x300.png 600w<br>
-"      <br>
-"      sizes="(max-width: 480px) 200px, (max-width: 1024px) 400px, 600px"<br>
-"      alt="ThermoSafe — Confiança em cada número"<br>
-"      class="logo"><br>
+'''
+<header class="header"> <br>
+    <!-- Logo responsivo com srcset --><br>
+    <img <br>
+      src="imagens/logo.png" <br>
+      srcset="<br>
+        imagens/thermosafe_logo_200x100.png 200w,<br>
+        imagens/thermosafe_logo_400x200.png 400w,<br>
+        imagens/thermosafe_logo_600x300.png 600w<br>
+      <br>
+      sizes="(max-width: 480px) 200px, (max-width: 1024px) 400px, 600px"<br>
+      alt="ThermoSafe — Confiança em cada número"<br>
+      class="logo"><br>
+  '''
 "  </header>
 
