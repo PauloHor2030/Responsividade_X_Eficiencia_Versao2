@@ -18,8 +18,8 @@ teremos que fazer com que a programação se adeque ao equipamento/device que ir
 ### **** Atenção **** <br>
   Cabe ressaltar que em caso do browser nao suportar a propriedade srcset, <br>
 nós já prevemos com o uso da imagem no tamanho de 200 x 100.
-
-# Trecho do código mais relevante:
+''' 
+# Trecho do código HTML mais relevante:
 <header class="header">
     <!-- Logo responsivo com srcset -->
     <img 
@@ -33,3 +33,4 @@ nós já prevemos com o uso da imagem no tamanho de 200 x 100.
       alt="ThermoSafe — Confiança em cada número"
       class="logo">
   </header>
+'''
