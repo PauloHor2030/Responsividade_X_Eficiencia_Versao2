@@ -16,5 +16,5 @@ resolução do equipamento (ie, celular, desktop, laptop, monitor 4k):
   com uma resolução superior, no nosso por exemplo, width= 600w.
 
   **** Atenção ****
-  Cabe ressaltar que em caso do browser nao suportar a propriedade srcset, 
+  Cabe ressaltar que em caso do browser nao suportar a propriedade srcset, <br>
 nós já prevemos com o uso da imagem no tamanho de 200 x 100.
