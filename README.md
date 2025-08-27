@@ -33,4 +33,4 @@ nós já prevemos com o uso da imagem no tamanho de 200 x 100.
 "      alt="ThermoSafe — Confiança em cada número"<br>
 "      class="logo"><br>
 "  </header>
-'''
+
