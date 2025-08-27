@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- ================================
+       META TAGS BÁSICAS
+       ================================ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo Responsivo | ThermoSafe</title>
+  <meta name="description" content="Exemplo de página com logo ThermoSafe responsivo usando srcset e CSS.">
+
+  <!-- ================================
+       LINK PARA CSS EXTERNO
+       ================================ -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ================================
+       HEADER COM O LOGO
+       ================================ -->
+  <header class="header">
+    <!-- Logo responsivo com srcset -->
+    <img 
+      src="imagens/logo.png" 
+      srcset="
+        imagens/thermosafe_logo_200x100.png 200w,
+        imagens/thermosafe_logo_400x200.png 400w,
+        imagens/thermosafe_logo_600x300.png 600w
+      "
+      sizes="(max-width: 480px) 200px, (max-width: 1024px) 400px, 600px"
+      alt="ThermoSafe — Confiança em cada número"
+      class="logo">
+  </header>
+
+  <!-- ================================
+       CONTEÚDO PRINCIPAL
+       ================================ -->
+  <main class="main">
+    <h1>Exemplo de Uso do Logo ThermoSafe</h1>
+    <p>
+      Este é um exemplo simples mostrando como usar 
+      <code>srcset</code> e <code>sizes</code> para carregar automaticamente 
+      a melhor versão do logo conforme a largura da tela.
+    </p>
+    <p>
+      O logo acima muda de versão (<strong>200px</strong>, <strong>400px</strong> ou <strong>600px</strong>) 
+      de acordo com a resolução do dispositivo, garantindo nitidez e economia de banda.
+    </p>
+  </main>
+
+  <!-- ================================
+       FOOTER
+       ================================ -->
+  <footer class="footer">
+    <p>&copy; 2025 ThermoSafe — Exemplo Responsivo</p>
+  </footer>
+</body>
+</html>

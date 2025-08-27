@@ -1,0 +1,57 @@
+/* ================================
+   ESTILOS BÁSICOS E RESET
+   ================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f9fafc;
+  color: #333;
+}
+
+/* ================================
+   HEADER
+   ================================ */
+.header {
+  display: flex;
+  justify-content: center;   /* Centraliza o logo horizontalmente */
+  align-items: center;       /* Centraliza verticalmente */
+  background-color: #0A3D62; /* Azul navy ESG */
+  padding: 20px;
+}
+
+/* Logo responsivo */
+.logo {
+  max-width: 100%;  /* Garante que nunca ultrapasse o container */
+  height: auto;     /* Mantém a proporção da imagem */
+}
+
+/* ================================
+   CONTEÚDO PRINCIPAL
+   ================================ */
+.main {
+  padding: 20px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #0A3D62;
+  margin-bottom: 15px;
+}
+
+/* ================================
+   FOOTER
+   ================================ */
+.footer {
+  background-color: #f2f6fa;
+  color: #555;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
