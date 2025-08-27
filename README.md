@@ -18,3 +18,18 @@ teremos que fazer com que a programação se adeque ao equipamento/device que ir
 ### **** Atenção **** <br>
   Cabe ressaltar que em caso do browser nao suportar a propriedade srcset, <br>
 nós já prevemos com o uso da imagem no tamanho de 200 x 100.
+
+# Trecho do código mais relevante:
+<header class="header">
+    <!-- Logo responsivo com srcset -->
+    <img 
+      src="imagens/logo.png" 
+      srcset="
+        imagens/thermosafe_logo_200x100.png 200w,
+        imagens/thermosafe_logo_400x200.png 400w,
+        imagens/thermosafe_logo_600x300.png 600w
+      "
+      sizes="(max-width: 480px) 200px, (max-width: 1024px) 400px, 600px"
+      alt="ThermoSafe — Confiança em cada número"
+      class="logo">
+  </header>
