@@ -1,5 +1,8 @@
 # Responsividade_X_Eficiência
 
+Link de Acesso: https://paulohor2030.github.io/Responsividade_X_Eficiencia_Versao2/
+
+
 ## Como equilibrar Responsividade e Eficiência na carga de imagens?<br>
 
   Quando queremos ter imagens com resolução adequada aos equipamentos que estaremos trabalhando,<br>   
